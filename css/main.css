@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+html {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --scrollbarBG: #5F393D;
+  --thumbBG: rgba(255,255,255,0.5);
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 96px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-size: 40px;
+	line-height: 24px;
+}
+h3 {
+	font-size: 32px;
+	line-height: 24px;
+}
+h4 {
+	font-size: 24px;
+	line-height: 24px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 25px;
+}
+h6 {
+
+}
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #333;
+}
+.p1 {
+	font-size: 24px;
+	line-height: 24px;
+}
+.p3 {
+	font-size: 14px;
+	line-height: 24px;
+	font-variant: small-caps; 
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+button {
+	width: 289px;
+	height: 68px;
+	border: none;
+	background-color: #C57F6B;
+	color: #fff;
+}
+hr {
+	width: 200px;
+	border: none;
+	height: 9px;
+	background-color: #5F393D;
+	color: #5F393D;
+	margin: 30px;
+	padding: 0px;
+	padding-bottom: 9px;
+}
+header {
+	height: 70px; 
+	background-color: #5F393D;
+	color: #fff;
+	
+}
+header .text {
+	padding-top: 17px;
+	padding-bottom: 17px;
+	margin: 0px;
+}
+header .text h4 {
+	margin-left: 30px;
+}
+header ul {
+	list-style-type: none;
+	/*background-color: red;*/
+	padding: 17px 0px;
+}
+header ul li {
+	display: inline;
+	margin-left: 30px;
+}
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+header ul li a:hover {
+	text-decoration: none;
+	opacity: 0.6;
+	color: #fff;
+}
+header nav {
+	text-align: right;
+/*	display: inline-flex;
+	align-items: center;*/
+}
+nav .harmburger {
+	display: none;
+}
+.heroarea {
+	width: 100%;
+	background-color: #000000;
+	height: 600px;
+}
+.heroarea .text {
+	display: flex;
+	/*align-items: center;*/
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+.heroarea .img {
+	height: 600px;
+	/*overflow: hidden;*/
+}
+.heroarea img {
+	max-width: 100%;
+	/*height: 100%;*/
+}
+.heroarea .text h1 {
+	font-weight: bold;
+	margin-left: 30px;
+}
+.heroarea .text p {
+	color: #fff;
+	opacity: 0.9;
+	margin-left: 30px;
+}
+.heroarea .text button {
+	margin-left: 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255,255,255,0.9);
+}
+.about {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.about .text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.about .text h2 {
+	/*border-bottom: #5F393D 9px solid;*/
+}
+.about .text h2, .about .text p {
+	margin-left: 30px;
+}
+.about .text h2 {
+	line-height: 14px;
+}
+.about .text p {
+	margin-top: 30px;
+}
+.about .img {
+	text-align: right;
+}
+.about .img img {
+	margin-right: 30px;
+}
+.wwd {
+	height: 1209px;
+	padding-top: 97px;
+	background-color: rgba(248, 248, 248,0.5);
+}
+.wwd .text h2, .wwd .text p{
+	text-align: center;
+}
+.wwd .text hr{
+	margin: 0 auto;
+}
+.wwd .text p {
+	margin-top: 30px;
+}
+.wwd .text h3 {
+	margin-top: 60px;
+}
+.wwd .text h3, .hr-left hr{
+	margin-left: 30px !important;
+}
+.wwd .wwd-img {
+	margin-top: 30px;
+}
+.wwd .wwd-img img {
+	margin-left: 30px;
+}
+.wwd .wwd-img span {
+	width: 354px;
+	height: 70px;
+	display: flex;
+	margin-top: 0px;
+	margin-left: 30px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #5F393D;
+}
+.wwd .wwd-img span p {
+	color: #fff;
+}
+.wwd .wwd-img span .p3 {
+	opacity: 0.8;
+}
+.portfolio {
+	height: 1233px;
+	padding-top: 97px;
+}
+.portfolio .text h2, .portfolio .text p{
+	text-align: center;
+}
+.portfolio .text p {
+	margin-top: 30px;
+}
+.portfolio .text hr {
+	margin: 0 auto;
+}
+.portfolio-img img{
+	margin-left: 30px;
+	margin-top: 60px;
+}
+.portfolio-img-1 img {
+	margin-top: 23px;
+}
+.joml {
+	background-color: #5F393D;
+	color: #fff;
+	padding-top: 97px;
+	height: 698px;
+}
+.joml .text h2, .joml .text p{
+	text-align: center;
+}
+.joml .text p {
+	margin-top: 30px;
+	color: rgba(255,255,255,0.9);
+}
+.joml .text hr {
+	margin: 0 auto;
+	background-color: #fff !important;
+	color: #fff !important;
+}
+.joml .form {
+	text-align: center;
+}
+.joml .form input[type=text] {
+	width: 336px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.9);
+	margin-top: 60px;
+
+}
+.joml .form textarea {
+	background-color: transparent;
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.9);
+	margin-top: 30px;
+}
+.joml .form button {
+	margin-top: 30px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 1px transparent inset !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.9);
+  padding-left: 10px;
+}
+footer {
+	height: 395px;
+	padding-top: 97px;
+	background-color: rgba(248, 248, 248,0.5);
+}
+footer ul {
+	list-style-type: none;
+	margin-left: 0px !important;
+	padding-left: 0px;
+}
+footer ul li {
+	margin-top: 30px;
+}
+footer h4, footer p {
+	margin-left: 30px;
+}
+footer .list p {
+	margin-left: 0px;
+}
+footer ul li a {
+	color: #333;
+}
+footer ul li a:hover {
+	color: #333;
+	text-decoration: none;
+}
+footer .copyright {
+	background-color: rgba(248, 248, 248,1);
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+footer .copyright .img {
+	text-align: right;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 758px) {
+	/*nav .harmburger {
+		display: block;
+	}*/
+	header {
+		display: none;
+	}
+	body {
+		background-color: red;
+	}
+	footer {
+		background-color: red;
+	}
+}
