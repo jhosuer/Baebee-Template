@@ -215,6 +215,9 @@ nav .harmburger {
 .wwd .wwd-img img {
 	margin-left: 30px;
 }
+.wwd .wwd-img img:hover {
+	opacity: 0.9;
+}
 .wwd .wwd-img span {
 	width: 354px;
 	height: 70px;
@@ -247,6 +250,9 @@ nav .harmburger {
 .portfolio-img img{
 	margin-left: 30px;
 	margin-top: 60px;
+}
+.portfolio-img img:hover {
+	opacity: 0.9;
 }
 .portfolio-img-1 img {
 	margin-top: 23px;
