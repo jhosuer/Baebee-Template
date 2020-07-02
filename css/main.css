@@ -218,7 +218,7 @@ nav .harmburger {
 .wwd .wwd-img img:hover {
 	opacity: 0.9;
 }
-.wwd .wwd-img span {
+.wwd .wwd-img .span {
 	width: 354px;
 	height: 70px;
 	display: flex;
@@ -228,10 +228,10 @@ nav .harmburger {
 	align-items: center;
 	background-color: #5F393D;
 }
-.wwd .wwd-img span p {
+.wwd .wwd-img .span p {
 	color: #fff;
 }
-.wwd .wwd-img span .p3 {
+.wwd .wwd-img .span .p3 {
 	opacity: 0.8;
 }
 .portfolio {
@@ -288,6 +288,7 @@ nav .harmburger {
 
 }
 .joml .form textarea {
+	width: 336px;
 	background-color: transparent;
 	border: 1px solid;
 	border-color: rgba(255,255,255,0.9);
@@ -340,22 +341,4 @@ footer .copyright {
 }
 footer .copyright .img {
 	text-align: right;
-}
-
-
-/*Media Queries*/
-
-@media only screen and (max-width: 758px) {
-	/*nav .harmburger {
-		display: block;
-	}*/
-	header {
-		display: none;
-	}
-	body {
-		background-color: red;
-	}
-	footer {
-		background-color: red;
-	}
 }
