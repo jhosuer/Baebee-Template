@@ -79,6 +79,7 @@
   		-webkit-box-sizing: border-box;
   		box-sizing: border-box;
 		width: 343px;
+		margin: 0 auto;
 		margin-top: 15px;
 		height: 170px;
 		text-align: center;
