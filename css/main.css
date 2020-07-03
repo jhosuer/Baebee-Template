@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 html {
+	-webkit-box-sizing: border;
 	box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -145,12 +146,16 @@ nav .harmburger {
 	/*height: 100%;*/
 }
 .heroarea .text h1 {
+	width: 400px;
+	word-wrap: break-word;
 	font-weight: bold;
 	margin-left: 30px;
 }
 .heroarea .text p {
 	color: #fff;
 	opacity: 0.9;
+	width: 520px;
+	word-wrap: break-word;
 	margin-left: 30px;
 }
 .heroarea .text button {
@@ -181,6 +186,8 @@ nav .harmburger {
 	line-height: 14px;
 }
 .about .text p {
+	width: 546px;
+	word-wrap: break-word;
 	margin-top: 30px;
 }
 .about .img {
@@ -196,11 +203,14 @@ nav .harmburger {
 }
 .wwd .text h2, .wwd .text p{
 	text-align: center;
+	margin: 0 auto;
 }
 .wwd .text hr{
 	margin: 0 auto;
 }
 .wwd .text p {
+	width: 509px;
+	word-wrap: break-word;
 	margin-top: 30px;
 }
 .wwd .text h3 {
@@ -240,8 +250,11 @@ nav .harmburger {
 }
 .portfolio .text h2, .portfolio .text p{
 	text-align: center;
+	margin: 0 auto;
 }
 .portfolio .text p {
+	width: 420px;
+	word-wrap: break-word;
 	margin-top: 30px;
 }
 .portfolio .text hr {
@@ -265,8 +278,11 @@ nav .harmburger {
 }
 .joml .text h2, .joml .text p{
 	text-align: center;
+	margin: 0 auto;
 }
 .joml .text p {
+	width: 452px;
+	word-wrap: break-word;
 	margin-top: 30px;
 	color: rgba(255,255,255,0.9);
 }
@@ -281,6 +297,7 @@ nav .harmburger {
 .joml .form input[type=text] {
 	width: 336px;
 	height: 50px;
+	border-radius: 4px;
 	background-color: transparent;
 	border: 1px solid;
 	border-color: rgba(255,255,255,0.9);
@@ -291,6 +308,7 @@ nav .harmburger {
 	width: 336px;
 	background-color: transparent;
 	border: 1px solid;
+	border-radius: 4px;
 	border-color: rgba(255,255,255,0.9);
 	margin-top: 30px;
 }

@@ -1,7 +1,12 @@
 /* media query */
+@media screen and (max-width: 1280px) {
+	
+}
 @media screen and (max-width: 768px) {
 	header {
 		height: 50px;
+		box-sizing: border-box;
+		overflow: hidden;
 	}
 	hr {
 	width: 100px;
@@ -14,13 +19,13 @@
 		justify-content: center;
 		padding: 0px 0px;
 		position: relative;
-		position: relative;
 		top: 20px;
 	}
 	header .text h4 {
 		font-size: 14px;
 		line-height: 10px;
 		font-weight: bold;
+		margin-left: 10px;
 	}
 	header ul {
 		display: none;
@@ -39,37 +44,70 @@
 		color: #ffffff;
 	}
 	.heroarea {
-		height: 457px;
+		height: 530px;
 		padding-top: 48px;
+		position: relative;
+		overflow: hidden;
 	}
 	.heroarea h1 {
 		font-size: 24px;
 		line-height: 36px;
 	}
+	.heroarea .text h1 {
+		width: 281px;
+		word-wrap: break-word;
+		margin-left: 0px;
+	}
 	.heroarea p {
 		font-size: 14px;
 		line-height: 24px;
+	}
+	.heroarea .text p {
+		width: 241px;
+		word-wrap: break-word;
+		margin-left: 0px;
+	}
+	.heroarea .text button {
+		margin-left: 0px;
 	}
 	button {
 		width: 100px;
 		height: 48px;
 	}
 	.heroarea .img {
+		display: block;
+  		-webkit-box-sizing: border-box;
+  		box-sizing: border-box;
+		width: 343px;
+		margin-top: 15px;
+		height: 170px;
 		text-align: center;
+		overflow: hidden;
 	}
 	.heroarea img { 
-		width: 97.5px;
-		height: 150px;
+		width: 70%;
+		/*height: 150px;*/
+		/*background: url(../img/hero-child-mobile.png) no-repeat;*/
 	}
 	.about {
 		padding-top: 48px;
+		padding-bottom: 30px;
+		position: relative;
+		overflow: hidden;
+		height: 717px;
 	}
-	.about .text {
-		
+	.about .text p {
+		width: 230px;
+		word-wrap: break-word;
+		margin-left: 0px;
+	}
+	.about .text h2,.about .text hr {
+		margin-left: 0px;
 	}
 	.about .text h2 {
 		font-size: 18px;
 		line-height: 0px;
+		margin-top: 0px;
 	}
 	.about .text p {
 		font-size: 14px;
@@ -78,18 +116,26 @@
 	}
 	.about .img {
 		text-align: center;
+		overflow: hidden;
+		margin-top: 15px;
 	}
 	.about img {
-		width: 107.96px;
-		height: 150px;
+		width: 60%;
+		text-align: center;
 		margin-bottom: 20px;
 	}
 	.wwd {
 		padding-top: 48px;
-		height: 1430px;
+		height: 1900px;
+		overflow: hidden;
 	}
 	.wwd .text h2, .wwd .text p{
 		text-align: left;
+	}
+	.wwd .text p {
+		width: 230px;
+		word-wrap: break-word;
+		margin-left: 0px;
 	}
 	.wwd .text h2 {
 		font-size: 18px;
@@ -121,8 +167,7 @@
 	text-align: center;
 	}
 	.wwd .wwd-img img {
-		width: 152.6px;
-		height: 100px;
+		width: 70%;
 		margin-left: 0px;
 	}
 	.wwd .wwd-img .rightwwdtext img {
@@ -130,8 +175,8 @@
 		height: 16px;
 	}
 	.wwd .wwd-img .span {
-		max-width: 152.6px;
-		width: 100%;
+		/*max-width: 152.6px;*/
+		width: 70%;;
 		height: 35px;
 		display: flex;
 		margin: 0 auto;
@@ -149,12 +194,14 @@
 		left: 30px;
 	}
 	.portfolio {
-		height: 2000px;
+		height: 3820px;
 		padding-top: 48px;
 		margin-left: 0px;
+		overflow: hidden;
 	}
-	.portfolio .text h2, .portfolio .text p{
+	.portfolio .text h2, .portfolio .text p {
 		text-align: left;
+		margin-left: 0px;
 	}
 	.portfolio .text h2 {
 		font-size: 18px;
@@ -164,6 +211,8 @@
 	.portfolio .text p {
 		font-size: 14px;
 		line-height: 24px;
+		width: 240px;
+		word-wrap: break-word;
 		margin-top: 15px;
 	}
 	.portfolio .text hr {
@@ -174,16 +223,18 @@
 
 	}
 	.portfolio-img img {
-		width: 121.6px;
+		width: 70%;
 		margin-top: 15px;
 		margin-left: 0px;
 	}
 	.joml {
 		padding-top: 48px;
 		height: 570px;
+		overflow: hidden;
 	}
 	.joml .text h2, .joml .text p{
-	text-align: left;
+		text-align: left;
+		margin-left: 0px;
 	}
 	.joml .text h2 {
 		font-size: 16px;
@@ -194,6 +245,8 @@
 		font-size: 14px;
 		line-height: 24px;
 		margin-bottom: 0px;
+		width: 256px;
+		word-wrap: break-word;
 	}
 	.joml .text hr {
 		margin: 0px;
@@ -210,8 +263,9 @@
 		margin-top: 15px;
 	}
 	footer {
-		height: 930px;
+		height: 788px;
 		padding-top: 48px;
+		overflow: hidden;
 	}
 	footer h4, footer p {
 	margin-left: 0px;
@@ -221,6 +275,8 @@
 		line-height: 24px;
 	}
 	footer p {
+		width: 196px;
+		word-wrap: break-word;
 		font-size: 12px;
 		line-height: 24px;
 	}
@@ -231,7 +287,8 @@
 	footer li {
 		font-size: 12px;
 		line-height: 24px;
-		margin-top: 8px;
+		margin-top: 8px !important;
+
 	}
 	footer li a {
 		margin-top: 8px;
