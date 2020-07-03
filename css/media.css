@@ -73,6 +73,7 @@
 	button {
 		width: 100px;
 		height: 48px;
+		border-radius: 4px;
 	}
 	.heroarea .img {
 		display: block;

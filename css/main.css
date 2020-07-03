@@ -74,6 +74,7 @@ button {
 	border: none;
 	background-color: #C57F6B;
 	color: #fff;
+	border-radius: 4px;
 }
 hr {
 	width: 200px;
